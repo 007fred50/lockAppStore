@@ -23,6 +23,7 @@ Column{
     property var downFiles9: ""
     property var downFiles10: ""
 
+
     property var responseTextGet: ""
     property var howmanyApps: ""
 
