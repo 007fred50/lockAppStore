@@ -1,0 +1,15 @@
+{
+    "name": "lockappstore.lockappstore",
+    "description": "lockAppStore",
+    "architecture": "@CLICK_ARCH@",
+    "title": "lockAppStore",
+    "hooks": {
+        "lockAppStore": {
+            "apparmor": "lockAppStore.apparmor",
+            "desktop":  "lockAppStore.desktop"
+        }
+    },
+    "version": "1.0.24",
+    "maintainer": "lockAppStore <007fred50@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
